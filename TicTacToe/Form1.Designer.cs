@@ -28,10 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            SuspendLayout();
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(482, 573);
+            FormBorderStyle = FormBorderStyle.FixedToolWindow;
+            Name = "Form1";
+            ShowIcon = false;
+            Text = "LoL vs Dota 2 (based on Tic-Tac-Toe)";
+            ResumeLayout(false);
         }
 
         #endregion
